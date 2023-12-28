@@ -1,6 +1,6 @@
 .mediaViewInfo {
-	--web-view-name: index;
-	--web-view-id: index;
+	--web-view-name: under_construction;
+	--web-view-id: under_construction;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;
@@ -9,7 +9,7 @@
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: index;
+	--web-view-ids: under_construction;
 }
 * {
 	margin: 0;
@@ -17,14 +17,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-#index {
+#under_construction {
 	position: absolute;
 	width: 1366px;
 	height: 768px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: index;
-	--web-view-id: index;
+	--web-view-name: under_construction;
+	--web-view-id: under_construction;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;
@@ -58,5 +58,61 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 80px;
+	color: rgba(112,112,112,1);
+}
+#ID341234 {
+	left: 124px;
+	top: -1px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(112,112,112,1);
+}
+#ID412 {
+	left: 602px;
+	top: 91px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(112,112,112,1);
+}
+#ID41234 {
+	left: 1039px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(112,112,112,1);
+}
+#ID412341234 {
+	left: 533px;
+	top: 234px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	height: 300px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
 	color: rgba(112,112,112,1);
 }
