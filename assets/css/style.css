@@ -833,7 +833,7 @@ table th,
 }
 
 .archive .ms-sp--header .ms-sp--title,
-.search .ms-sp--header .ms-sp--title,
+.donate .ms-sp--header .ms-sp--title,
 .blog .ms-sp--header .ms-sp--title {
   margin-left: auto;
   margin-right: auto;
@@ -5588,7 +5588,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   fill: var(--color-primary);
 }
 
-.header__search-modal {
+.header__donate-modal {
   --modal-transition-duration: .3s;
   position: fixed;
   width: 100%;
@@ -5604,7 +5604,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   z-index: 9;
   transition: opacity var(--modal-transition-duration), visibility 0s var(--modal-transition-duration), backdrop-filter var(--modal-transition-duration), background-color var(--modal-transition-duration);
 }
-.header__search-modal .header__search--close-btn {
+.header__donate-modal .header__donate--close-btn {
   width: 45px;
   height: 45px;
   position: fixed;
@@ -5615,10 +5615,10 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   border: none;
   border-radius: 50%;
 }
-.header__search-modal .header__search--close-btn svg g {
+.header__donate-modal .header__donate--close-btn svg g {
   stroke: var(--color-white);
 }
-.header__search-modal .header__search--inner {
+.header__donate-modal .header__donate--inner {
   height: 80px;
   max-width: 48rem;
   width: 100%;
@@ -5626,7 +5626,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   z-index: 11;
   margin: 0 15px;
 }
-.header__search-modal .header__search--inner .search-field {
+.header__donate-modal .header__donate--inner .donate-field {
   width: 100%;
   position: relative;
   height: 60px;
@@ -5637,11 +5637,11 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   border-radius: 0;
   border-bottom: solid 2px var(--color-primary);
 }
-.header__search-modal .header__search--inner .search-field:focus-visible {
+.header__donate-modal .header__donate--inner .donate-field:focus-visible {
   outline: none;
   box-shadow: none;
 }
-.header__search-modal .header__search--inner .ms-search--btn {
+.header__donate-modal .header__donate--inner .ms-donate--btn {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -5654,11 +5654,11 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   align-items: center;
   justify-content: center;
 }
-.header__search-modal .header__search--inner .ms-search--btn svg {
+.header__donate-modal .header__donate--inner .ms-donate--btn svg {
   width: 22px;
   fill: var(--color-white);
 }
-.header__search-modal .header__search--inner .ms-search--btn .search-submit {
+.header__donate-modal .header__donate--inner .ms-donate--btn .donate-submit {
   position: absolute;
   top: 0;
   right: 0;
@@ -5668,7 +5668,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   font-size: 0;
 }
 
-.header__search-modal.modal--is-visible {
+.header__donate-modal.modal--is-visible {
   opacity: 1;
   visibility: visible;
   backdrop-filter: saturate(180%) blur(10px);
@@ -5676,7 +5676,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   transition: opacity 0.3s, visibility 0s, backdrop-filter 0.3s;
 }
 
-.logged-in.admin-bar .header__search--close-btn {
+.logged-in.admin-bar .header__donate--close-btn {
   top: calc(var(--space-sm) + 32px);
 }
 
@@ -7207,27 +7207,27 @@ Descr: Component used to navigate through pages of related content
 }
 
 .ms-sp--title span,
-.search-word {
+.donate-word {
   font-weight: 400;
   color: var(--color-contrast-medium);
 }
 
-.search-results .post-meta__date {
+.donate-results .post-meta__date {
   font-size: 15px;
   display: block;
   margin-top: 8pt;
   color: var(--color-contrast-medium);
 }
-.search-results .post-footer--link {
+.donate-results .post-footer--link {
   margin-left: 0 !important;
 }
 
-.search-again-block {
+.donate-again-block {
   margin-top: calc(1.1 * var(--space-md));
   display: flex;
   align-items: center;
 }
-.search-again-block p {
+.donate-again-block p {
   margin-top: 0 !important;
   border-bottom: none !important;
   padding-bottom: 0 !important;
@@ -10670,10 +10670,10 @@ Descr: Contact block w/ info about how to get in touch
 .ms-sb-wc .ui-slider-horizontal .ui-slider-range-max {
   right: -1px;
 }
-.ms-sb-wc .woocommerce.widget_product_search {
+.ms-sb-wc .woocommerce.widget_product_donate {
   flex-direction: column;
 }
-.ms-sb-wc .woocommerce.widget_product_search .woocommerce-product-search {
+.ms-sb-wc .woocommerce.widget_product_donate .woocommerce-product-donate {
   position: relative;
 }
 
@@ -11643,12 +11643,12 @@ body[data-theme=dark] .wrapper .filter-price .price-wrap_line {
   background-color: var(--color-bg);
 }
 
-.select2-search--dropdown {
+.select2-donate--dropdown {
   background-color: var(--color-contrast-lower);
   border-top: 1px solid #aaa;
 }
 
-.select2-container--default .select2-search--dropdown .select2-search__field {
+.select2-container--default .select2-donate--dropdown .select2-donate__field {
   background-color: var(--color-bg);
 }
 
@@ -13223,18 +13223,18 @@ Descr: Blog Sidebar style
 
 .wp-block-archives-dropdown select,
 .wp-block-categories-dropdown select,
-.wp-block-search__inside-wrapper input {
+.wp-block-donate__inside-wrapper input {
   width: auto;
   line-height: 24px;
 }
 .wp-block-archives-dropdown select:hover,
 .wp-block-categories-dropdown select:hover,
-.wp-block-search__inside-wrapper input:hover {
+.wp-block-donate__inside-wrapper input:hover {
   border-color: var(--color-contrast-medium);
 }
 .wp-block-archives-dropdown select:focus-visible,
 .wp-block-categories-dropdown select:focus-visible,
-.wp-block-search__inside-wrapper input:focus-visible {
+.wp-block-donate__inside-wrapper input:focus-visible {
   --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
   z-index: 1;
   border-color: var(--color-primary);
@@ -13354,15 +13354,15 @@ Descr: Blog Sidebar style
 
 /* Tags
 --------------------------------------------- */
-/* Search
+/* donate
 --------------------------------------------- */
-.ms-search-widget,
-.woocommerce.widget_product_search {
+.ms-donate-widget,
+.woocommerce.widget_product_donate {
   position: relative;
   display: flex;
 }
-.ms-search-widget .ms-search--btn,
-.woocommerce.widget_product_search .ms-search--btn {
+.ms-donate-widget .ms-donate--btn,
+.woocommerce.widget_product_donate .ms-donate--btn {
   position: absolute;
   z-index: 2;
   left: 4pt;
@@ -13375,23 +13375,23 @@ Descr: Blog Sidebar style
   background-color: transparent;
   transition: box-shadow 150ms var(--ease-in-out);
 }
-.ms-search-widget .ms-sb--icon,
-.woocommerce.widget_product_search .ms-sb--icon {
+.ms-donate-widget .ms-sb--icon,
+.woocommerce.widget_product_donate .ms-sb--icon {
   width: 22px;
   height: 22px;
   margin-top: auto;
   margin-bottom: auto;
 }
-.ms-search-widget .ms-sb--icon svg,
-.woocommerce.widget_product_search .ms-sb--icon svg {
+.ms-donate-widget .ms-sb--icon svg,
+.woocommerce.widget_product_donate .ms-sb--icon svg {
   display: block;
   height: 100%;
   width: 100%;
   opacity: 0.8;
   fill: var(--color-contrast-medium);
 }
-.ms-search-widget .search-field,
-.woocommerce.widget_product_search .search-field {
+.ms-donate-widget .donate-field,
+.woocommerce.widget_product_donate .donate-field {
   width: 100%;
   color: var(--color-contrast-high);
   background-color: transparent;
@@ -13401,20 +13401,20 @@ Descr: Blog Sidebar style
   height: 45px;
   transition: border-color 150ms var(--ease-in-out), box-shadow 150ms var(--ease-in-out);
 }
-.ms-search-widget .search-field:hover,
-.woocommerce.widget_product_search .search-field:hover {
+.ms-donate-widget .donate-field:hover,
+.woocommerce.widget_product_donate .donate-field:hover {
   border-color: var(--color-primary);
 }
-.ms-search-widget .search-field:focus-visible,
-.woocommerce.widget_product_search .search-field:focus-visible {
+.ms-donate-widget .donate-field:focus-visible,
+.woocommerce.widget_product_donate .donate-field:focus-visible {
   --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
   z-index: 1;
   border-color: var(--color-primary);
   box-shadow: 0 0 0 4px var(--color-shadow);
   outline: none;
 }
-.ms-search-widget .search-submit,
-.woocommerce.widget_product_search .search-submit {
+.ms-donate-widget .donate-submit,
+.woocommerce.widget_product_donate .donate-submit {
   position: absolute;
   top: 0;
   background-color: transparent;
@@ -13423,8 +13423,8 @@ Descr: Blog Sidebar style
   height: 100%;
   font-size: 0;
 }
-.ms-search-widget .search-submit:hover,
-.woocommerce.widget_product_search .search-submit:hover {
+.ms-donate-widget .donate-submit:hover,
+.woocommerce.widget_product_donate .donate-submit:hover {
   cursor: pointer;
 }
 
@@ -13464,7 +13464,7 @@ Descr: Blog Sidebar style
 .ms-sidebar .wp-block-group__inner-container .wp-block-latest-comments__comment::before {
   content: none;
 }
-.ms-sidebar .wp-block-search__label {
+.ms-sidebar .wp-block-donate__label {
   font-family: var(--font-heading);
   font-size: 24px;
   white-space: nowrap;
