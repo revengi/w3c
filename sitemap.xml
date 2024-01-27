@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  add sitemap  -->
-
     <url>
         <loc>https://fpv.sale</loc>
-        <lastmod>2024-01-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://fpv.sale/about.html</loc>
-        <lastmod>2024-01-25</lastmod>
+        <lastmod>2024-01-27</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://fpv.sale/index.html</loc>
-        <lastmod>2024-01-25</lastmod>
+        <lastmod>2024-01-27</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://fpv.sale/about.html</loc>
+        <lastmod>2024-01-27</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://fpv.sale/join.html</loc>
+        <lastmod>2024-01-27</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://fpv.sale/contact.html</loc>
-        <lastmod>2024-01-25</lastmod>
+        <lastmod>2024-01-27</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://fpv.sale/donate.html</loc>
-        <lastmod>2024-01-25</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-        <url>
-        <loc>https://fpv.sale/404.html</loc>
-        <lastmod>2024-01-25</lastmod>
+        <lastmod>2024-01-27</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
