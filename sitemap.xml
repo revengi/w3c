@@ -43,7 +43,49 @@
         <priority>0.5</priority>
     </url>
         <url>
-        <loc>https://fpv.sale/projects.html</loc>
+        <loc>https://fpv.sale/en_404.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_about.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_contact.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_donate.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_index.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_join.html</loc>
+        <lastmod>2024-01-28</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://fpv.sale/en_projects.html</loc>
         <lastmod>2024-01-28</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
