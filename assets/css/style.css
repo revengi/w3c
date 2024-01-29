@@ -27,6 +27,10 @@ time, mark, audio, video, hr {
   border: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 html {
   box-sizing: border-box;
   overflow-x: hidden;
